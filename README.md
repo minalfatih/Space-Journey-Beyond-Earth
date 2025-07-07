@@ -16,7 +16,7 @@ Space is a simple, modern, and responsive **Landing Page** inspired by SpaceX. T
 
 ### Link
 
-- Live Site URL: [Space website](https://minalfatih.github.io/Explore-webstie/)
+- Live Site URL: [Space website](https://minalfatih.github.io/Space-Journey-Beyond-Earth/)
 
 ---
 
