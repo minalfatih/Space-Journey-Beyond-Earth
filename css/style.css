@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Orbitron', sans-serif;
+  background-color: #000;
+  color: #fff;
+  line-height: 1.6;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 10%;
+  background-color: #111;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+.logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  cursor: default;
+}
+
+.nav-links {
+  list-style: none;
+  display: none;
+  gap: 1.5rem;
+}
+
+.nav-links a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+.nav-links a:hover {
+  color: #4dd0e1;
+}
+
+.navbar svg {
+  width: 50px;
+}
+
+@media(min-width: 767px) {
+  .nav-links {
+    display: flex;
+  }
+  .navbar svg {
+  display: none;
+  }
+}
+
+.hero {
+  height: 90vh;
+  background-image: url('https://images.pexels.com/photos/23769/rocket-launch-rocket-take-off-nasa.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  padding: 2rem;
+}
+
+.hero-content h1 {
+  font-size: 3.5rem;
+  margin-bottom: 1rem;
+  text-shadow: 0 0 15px #4dd0e1;
+}
+
+.hero-content p {
+  font-size: 1.4rem;
+  margin-bottom: 2rem;
+  text-shadow: 0 0 10px #333;
+}
+
+.btn {
+  padding: 0.75rem 2rem;
+  background-color: #4dd0e1;
+  color: #000;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: 700;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #39b9c3;
+}
+
+.section {
+  padding: 4rem 10%;
+  text-align: center;
+  border-bottom: 1px solid #222;
+}
+
+.section h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #4dd0e1;
+}
+
+.section p, .section ul {
+  font-size: 1.1rem;
+  max-width: 800px;
+  margin: 0 auto 2rem auto;
+  color: #ddd;
+}
+
+.section ul {
+  list-style: inside disc;
+  text-align: left;
+}
+
+.rockets {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.rocket {
+  background-color: #1a1a1a;
+  padding: 1.5rem;
+  border-radius: 10px;
+  width: 280px;
+  box-shadow: 0 0 10px #4dd0e1;
+  transition: transform 0.3s ease;
+}
+
+.rocket:hover {
+  transform: translateY(-10px);
+}
+
+.launch-list {
+  list-style: none;
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+  color: #ddd;
+}
+
+.launch-list li {
+  padding: 0.8rem 0;
+  border-bottom: 1px solid #222;
+}
+
+.contact a {
+  color: #4dd0e1;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  background-color: #111;
+  text-align: center;
+  padding: 1.2rem 0;
+  margin-top: 3rem;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .rockets {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-content h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero-content p {
+    font-size: 1rem;
+  }
+}
