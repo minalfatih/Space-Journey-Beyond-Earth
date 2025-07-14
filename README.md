@@ -42,4 +42,4 @@ Space is a simple, modern, and responsive **Landing Page** inspired by SpaceX. T
 
 ## Contributors
 - Amina Elfatih Osman Abd Elwahab
-- Mohammed
+- Mohamed Alaaeldin
