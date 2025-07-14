@@ -140,6 +140,12 @@ body {
   transform: translateY(-10px);
 }
 
+.no-style-link {
+  text-decoration: none; 
+  color: inherit;        
+  display: block;        
+}
+
 .launch-list {
   list-style: none;
   max-width: 600px;
